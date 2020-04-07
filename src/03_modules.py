@@ -13,6 +13,8 @@ import sys
 for e in sys.argv:
     print(e)
 
+print(len(sys.argv))
+
 # Print out the OS platform you're using:
 # YOUR CODE HERE
 print(sys.platform)
